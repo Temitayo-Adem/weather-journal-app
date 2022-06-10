@@ -7,7 +7,9 @@ body{
     display: grid;
     grid-auto-rows: minmax(150px, auto);
     /* grid-template-columns:  */
-    height:100vh;
+    /* Changed height from 100vh to auto
+    Added some properties to other classes/ids to make the page more portable  */
+    height:auto;
     background: #f23557;
     color: #f0d43a;
     justify-content: center;
@@ -17,34 +19,64 @@ body{
 }
 
 .holder{
-
+    display: block;
 }
 
 .entry{
     background: rgba(59, 74, 107, .4);
+    height: 300px;
 }
 
 #entryHolder{
-
+    display: flex;
+    flex-direction: column;
+    height: 90%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    
 }
 
 #date{
-
+    height: 23%;
+    width: 100%;
+    
 }
 
 #temp{
+    height: 23%;
+    width: 100%;
+    
+}
 
+#temp-icon {
+    width: 100%;
+    height: 23%;
+    justify-content: center;
+    align-items: center;
+}
+
+img {
+    max-width: 100%;;
+    max-height: 100%;
 }
 
 #content{
-
+    height: 23%;
+    width: 100%;
 }
 
 .headline {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-size: 3rem;
+    text-decoration: underline;
+    font-weight: bold;
 
 }
 .title{
-
+    background: #4e6699;
 }
 
 /*  Basic Styling To Override Default For Basic HTML Elements */
@@ -73,6 +105,13 @@ button{
     font-family: 'Oswald', sans-serif;
     border: none;
     box-shadow: 2px 4px 5px #444;
+    display: block;
+    border-radius: 8px;
+}
+
+button:hover {
+    color: white;
+    background: #4e6699;
 }
 h1{
     font-size: 36px;
