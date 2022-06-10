@@ -1,10 +1,8 @@
 # Weather-Journal App Project
 
 ## Overview
-This project requires you to create an asynchronous web app that uses Web API and user data to dynamically update the UI. 
+I created a webpage that takes user input and utilizes the OpenWeatherMap API to dynamically add information to the page. Specifically, I used asynchronous functions/promises to GET and POST information. This project was very eye-opening for me. Learning how establish a server with node and how to create routes that respond to different requests was fascinating. The most challening aspect of this project was learning the syntax of how to chain promises. 
 
-## Instructions
-This will require modifying the `server.js` file and the `website/app.js` file. You can see `index.html` for element references, and once you are finished with the project steps, you can use `style.css` to style your application to customized perfection.
 
-## Extras
-If you are interested in testing your code as you go, you can use `tests.js` as a template for writing and running some basic tests for your code.
+
+
