@@ -9,7 +9,8 @@ const dateEle = document.getElementById('date');
 const contentEle = document.getElementById('content');
 // Variables related to the openweathermap api
 const baseUrl = 'https://api.openweathermap.org/data/2.5/weather?zip='
-const apiKey = '&appid=fabb1c8c7594818078e98367c09924a5';
+// Fake apiKey used as an example
+const apiKey = '&appid=fabb1c8c7594800178e98367c09924a2';
 // Create a new date instance dynamically with JS
 let d = new Date();
 // getMonth is zero indexed, so I added one.
