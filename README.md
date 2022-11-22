@@ -1,8 +1,17 @@
 # Weather-Journal App Project
 
 ## Overview
-I created a webpage that takes user input and utilizes the OpenWeatherMap API to dynamically add information to the page. Specifically, I used asynchronous functions/promises to GET and POST information. This project was very eye-opening for me. Learning how establish a server with node and how to create routes that respond to different requests was fascinating. The most challening aspect of this project was learning the syntax of how to chain promises. 
+In this project, I created an asynchronous web app that uses the OpenWeatherMap API and user data to dynamically update the UI in a Weather Journal application.  
 
+### Dependencies
+
+HTML, CSS and Javascript
+Node.js
+Express - node.js web application framework
+Body-parser - Express middleware; to parse incoming request bodies
+Cors - Express middleware; for cross origin allowance
+Dotenv - Loads environment variables from .env file
+Node-fetch - A light-weight module that brings window.fetch to node.js
 
 
 
